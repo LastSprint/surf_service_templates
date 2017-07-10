@@ -6,12 +6,12 @@ version: "1.0.0"
 
 code_files:
 # Service
-- {name: Service/Service.swift, path: Code/Service/service.swift.liquid}
+- {name: Service.swift, path: Code/Service/service.swift.liquid}
 
 # The declarations for test files
 test_files:
 
 # Service tests
-- {name: Service/ServiceTests.swift, path: Tests/Service/service_tests.swift.liquid}
+- {name: Tests/ServiceTests.swift, path: Tests/Service/service_tests.swift.liquid}
 
-- {name: Service/MappingTests.swift, path: Tests/Service/service_mapping_tests.swift.liquid}
+- {name: Tests/MappingTests.swift, path: Tests/Service/service_mapping_tests.swift.liquid}
