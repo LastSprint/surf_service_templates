@@ -12,6 +12,6 @@ code_files:
 test_files:
 
 # Service tests
-- {name: Tests/ServiceTests.swift, path: Tests/Service/service_tests.swift.liquid}
+- {name: ServiceTests.swift, path: Tests/Service/service_tests.swift.liquid}
 
-- {name: Tests/MappingTests.swift, path: Tests/Service/service_mapping_tests.swift.liquid}
+- {name: MappingTests.swift, path: Tests/Service/service_mapping_tests.swift.liquid}
